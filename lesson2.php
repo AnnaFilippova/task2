@@ -1,6 +1,6 @@
 <?php
   $sx = rand(0, 100);
-  echo "selected number: " + $sx;
+  echo "selected number: {$sx} ";
   $var1 = 1;
   $var2 = 1;
 
