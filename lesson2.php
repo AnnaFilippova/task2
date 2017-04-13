@@ -7,11 +7,11 @@
   while (true) {
     if ($var1 > $sx) {
       echo "задуманное число не входит в числовой ряд <br/>";
-      return;
+      die;
     } else {
       if ($var1 == $sx) {
         echo "задуманное число входит в числовой ряд <br/>";
-        return;
+        die;
       } else {
         $var3 = $var1;
         $var1 += $var2;
